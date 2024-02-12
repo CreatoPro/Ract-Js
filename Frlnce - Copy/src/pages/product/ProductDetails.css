@@ -1,0 +1,38 @@
+.page-product-details {
+    background-color: #f0f0f0;
+}
+
+.fade {
+    opacity:1;
+}
+
+.swal-title {
+    margin: 0 !important;
+    background-image: -webkit-linear-gradient(0deg, #13a7fc 0%, #14e6ce 100%);
+    color: #fff !important;
+    font-size: 21px !important;
+}
+
+.swal-button--cancel:not([disabled]):hover {
+    background-image: -webkit-linear-gradient(0deg, #53a1a2 0%, #8dccaa 100%);
+}
+
+.swal-button--cancel {
+    color: #fff;
+    background-image: -webkit-linear-gradient(0deg, #53a1a2 0%, #8dccaa 100%);
+}
+
+.swal-button--danger {
+    background-image: -webkit-linear-gradient(0deg, #13a7fc 0%, #14e6ce 100%);
+    width: 98px;
+    border-radius: 0px !important;
+}
+.product_learning_module .LearningSteps{
+    background: #fff;
+    margin-bottom: 75px;
+}
+
+.product_learning_module .btn{
+    position: fixed;
+    bottom: 0;
+}

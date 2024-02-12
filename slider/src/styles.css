@@ -1,0 +1,81 @@
+/* TEXT SIZES */
+
+.item h3 {
+  font-size: 20px;
+  margin-top: 60px;
+}
+@media (min-width: 768px) {
+  .item h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+.item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.owl-theme .owl-dots::before {
+  content: "What Sets Us Apart?";
+  display: flex;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 24px;
+}
+.owl-theme .owl-dots {
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  margin: 0 0 !important;
+  padding-left: 2rem !important;
+  width: 100%;
+}
+
+/* demo */
+.owl-theme .owl-dots::after {
+  /* content: "What Sets Us Apart?"; */
+  display: flex;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+}
+/* demo */
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 52px;
+  height: 4px;
+  margin: 5px 4px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #4786f1;
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .owl-theme .owl-dots::after {
+    /* content: "What Sets Us Apart?"; */
+    display: flex;
+    justify-content: left;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+  }
+  .owl-theme .owl-dots {
+    text-align: left;
+    position: absolute;
+    top: 11px;
+    /* margin: 0 0rem !important; */
+    padding: 0 2rem !important;
+    width: 100%;
+  }
+}

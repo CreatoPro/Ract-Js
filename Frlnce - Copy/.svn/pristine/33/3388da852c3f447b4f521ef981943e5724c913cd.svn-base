@@ -1,0 +1,37 @@
+.today_tests .fade {
+    opacity: 1;
+}
+.today_tests nav a{
+	width: 50%;
+	padding: 3px 0px;
+	display: block;
+	float: left;
+	text-align: center;
+    /* border-bottom: 1px solid #337ab7 !important; */
+}
+
+.today_tests nav .active{
+	color: #337ab7 !important;
+    border: none !important;
+    border-bottom: 5px solid #337ab7 !important;
+    font-weight: bold;    
+}
+
+
+#uncontrolled-tab-example-tab-Completed.active{
+    border-bottom: 5px solid rgb(93, 163, 21) !important;
+}
+
+.today_tests nav{
+    margin: 0 auto;
+}
+
+.today_tests form{
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.today-test-group {
+    padding: .75rem .50rem !important;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<script crossorigin src="%PUBLIC_URL%/cryptojs_v3.1.2.js"></script>
+    <script crossorigin src="%PUBLIC_URL%/xapiwrapper.js"></script>
+    <script src="https://dev.vdocipher.com/playerAssets/1.6.10/vdo.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=AM_HTMLorMML"></script> 
+	<!--<script type="text/javascript" async src="%PUBLIC_URL%/mathml.js?config=AM_HTMLorMML"></script>
+	<script type="text/javascript" src="%PUBLIC_URL%/mathml.js?config=default">
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            jax: ["input/MathML","output/HTML-CSS"],
+            extensions: ["mml2jax.js"],
+            MathMenu: {showRenderer: true},
+            "HTML-CSS": {imageFont: null}
+        });
+    </script>-->
+	
+	<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            jax: ["input/MathML","output/HTML-CSS"],
+            extensions: ["mml2jax.js"],
+            MathMenu: {showRenderer: true},
+            "HTML-CSS": {imageFont: null}
+        });
+    </script>
+	
+	
+	<script type='text/javascript'>
+	
+	    var url = new URL(window.location.href); 
+		if(url.search != "?debug") {
+			window.oncontextmenu = function () {
+				console.log("Right Click Disabled");
+				return false;
+            }
+		
+			var isCtrl = false;
+			document.onkeyup = function(e) {
+				if (e.which == 17)
+					isCtrl = false;
+			}
+			document.onkeydown = function(e) {
+				if (e.which == 17)
+					isCtrl = true;
+				if ((e.which == 123) || isCtrl == true) {
+					return false;
+				}
+			}
+			var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+			if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+
+			function mischandler() {
+				return false;
+			}
+
+			function mousehandler(e) {
+				var myevent = (isNS) ? e : event;
+				var eventbutton = (isNS) ? myevent.which : myevent.button;
+				if ((eventbutton == 2) || (eventbutton == 3)) return false;
+			}
+			document.oncontextmenu = mischandler;
+			document.onmousedown = mousehandler;
+			document.onmouseup = mousehandler;
+		}
+    </script>
+	
+    <title>iLearn PWA</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>

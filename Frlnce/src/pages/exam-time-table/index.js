@@ -1,0 +1,1 @@
+export {default as ExamTimeTable} from './ExamTimeTable.jsx';

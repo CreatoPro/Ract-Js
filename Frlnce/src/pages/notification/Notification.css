@@ -1,0 +1,18 @@
+.notification-text {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+
+.notification-card {
+    min-height: auto;    
+}
+
+.notification-unread {
+    font-weight: bold;    
+}
+
+.notification-date {
+    color: #488aff;
+    font-size: smaller;
+    font-style: italic;
+}

@@ -1,0 +1,3 @@
+version 191 --> npm install --save mdbreact
+
+version 196 --> npm uninstall --save mdbreact

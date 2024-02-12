@@ -1,0 +1,16 @@
+.upload-form-wrapper{
+    margin: 30px auto;
+    width: fit-content;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.upload-field-wrapper{
+    margin: 20px 0;
+}
+
+.upload-submit-button{
+    display: block;
+    margin: 20px;
+}

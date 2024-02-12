@@ -1,0 +1,92 @@
+.admit-card-container {
+  margin: 20px auto;
+  width: 900px;
+  padding: 0 20px;
+}
+
+.admit-card-heading-3 {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px dashed;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.admit-card-border {
+  border: 1px solid;
+}
+
+.admit-card-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.admit-card-logo {
+  width: 325px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.admit-card-heading-5 {
+  white-space: no-wrap;
+}
+
+.admit-card-body {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.admit-card-details {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.admit-card-heading-7 {
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.admit-card-content {
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.admit-card-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admit-card-user-img {
+  height: 200px;
+  width: 200px;
+}
+
+.admit-card-padd-l {
+  padding-left: 10px;
+}
+
+.admit-card-bold {
+  font-weight: 700;
+}
+
+.admit-card-instruction {
+  margin: 20px 0;
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  .admit-card-heading-3{
+    border: 0;
+  }
+}

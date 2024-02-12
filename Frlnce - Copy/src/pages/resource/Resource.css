@@ -1,0 +1,186 @@
+.Message .cardbody img{
+    width:50px;float:left;padding:5px;border-radius: 40px;height: 50px;
+}
+.Message .cardbody h4.head{
+    color:#333;
+    float: left;
+    margin: 15px 0px;
+    font-size: 16px;
+    width:72%;
+    text-align:left;
+}
+.Message .cardbody svg{
+    float: right;margin: 15px;
+}
+.message_details img{
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+	float:none !important;
+}
+.message_details .card{
+    margin-top:55px;
+}
+.vimeoPlayer{
+	margin-top:-15px;
+}
+
+.download_list.card_list .sno{
+    width: 8%;
+    float: left;
+    text-align: center;
+}
+
+.download_list.card_list .date{
+    width: 12%;
+    float: left;
+    text-align: center;
+}
+
+.download_list .align-center {
+    display: flex;
+    align-items: center;
+}
+
+.download_list .cardbody h4.head {
+    color: #333;
+    float: left;
+    margin: 0px !important;
+    font-size: 16px;
+    width: 72%;
+    text-align: left;
+}
+
+ .download_list .head h4, .download_list .head span{
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .custom_icon{
+   border-radius:50%;
+ }
+
+ .custom_icon svg{
+    color:#fff;
+    margin:10px !important;
+ }
+
+ @media only screen and (min-device-width :1024px) and (max-device-width :1824px) {
+    .ebook_details iframe{
+        /*height: 600px;*/
+        margin-top:0px;
+    }  
+
+    #video_div{
+        width: 80%;
+        margin:0 auto;
+    }
+
+    .Message .cardbody h4.head{
+        color:#333;
+        float: left;
+        margin: 15px 0px;
+        font-size: 15px;
+        text-align:left;
+        width:25%;
+        padding-right: 25px;
+    }
+    
+    .Message .cardbody p.desc{
+        color:#333;
+        float: left;
+        margin: 15px 0px;
+        font-size: 15px;
+        width:48%;
+        text-align:left;
+    }
+
+    .zoom_video_list .cardbody h4.head {
+        color: #333;
+        float: left;
+        margin: 0px !important;
+        font-size: 15px;
+        width: 35%;
+        text-align: left;
+    }
+
+    .zoom_video_list.card_list .date {
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+
+    .vimeoPlayer {
+        height: 500px;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin: 0 auto;
+    }
+
+    
+ }
+
+
+.swal-modal.orange-card {
+     background: #fff;
+}
+
+.swal-modal.red-card {
+     background: #fff;
+}
+
+.swal-modal.blue-card {
+     background: #fff;
+}
+
+.swal-modal.green-card {
+     background: #fff;
+}
+
+.swal-modal.blue-light-card {
+     background: #fff;
+}
+
+.swal-modal.pink-card {
+     background: #fff;
+}
+
+.swal-modal.blue-full-card {
+    background: #fff;
+}
+
+.swal-modal.grey-card {
+  background: #fff;
+}
+
+ .swal-modal.orange-card .swal-title, .swal-modal.orange-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #fb853f 0%, #fda446 37%, #fec24d 99%) !important;
+}
+
+.swal-modal.red-card .swal-title, .swal-modal.red-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #ff6072 0%, #ff9842 100%) !important;
+}
+
+.swal-modal.blue-card .swal-title, .swal-modal.blue-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #1d7ed5 0%, #15bae3 100%) !important;
+}
+
+.swal-modal.green-card .swal-title, .swal-modal.green-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #5da315 0%, #91cb14 100%);
+}
+
+.swal-modal.blue-light-card .swal-title, .swal-modal.blue-light-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #53a1a2 0%, #8dccaa 100%);
+}
+
+.swal-modal.pink-card .swal-title, .swal-modal.pink-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #f6667b 0%, #f19af8 100%);
+}
+
+.swal-modal.blue-full-card .swal-title, .swal-modal.blue-full-card .swal-button--danger{
+    background-image: -webkit-linear-gradient(0deg, #13a7fc 0%, #14e6ce 100%);
+}
+
+.swal-modal.grey-card .swal-title, .swal-modal.grey-card .swal-button--danger{
+  background-image: -webkit-linear-gradient(0deg, rgb(83, 161, 162) 0%, rgb(141, 204, 170) 100%);
+}

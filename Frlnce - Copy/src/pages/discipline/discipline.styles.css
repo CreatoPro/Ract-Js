@@ -1,0 +1,27 @@
+.blue-no-record{
+    display: block;
+    color: #3599B8;
+}
+
+.descipline-content{
+    display: flex;
+    gap: 250px;
+}
+
+.decipline-topic{
+    float: left;
+    font-weight: 700;
+    display: contents;
+}
+
+@media (max-width:1100px) {
+    .descipline-content{
+        gap: 60px;
+    }
+}
+@media (max-width:720px) {
+    .descipline-content{
+        display: block;
+        gap: 0;
+    }
+}

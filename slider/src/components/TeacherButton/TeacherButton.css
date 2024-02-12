@@ -1,0 +1,62 @@
+.teacher-button {
+  background-color: #d9eafa;
+  padding: 10px 20px 20px;
+  max-width: 300px;
+  border-radius: 30px;
+  margin: 100px auto;
+}
+
+.teacher-button .header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.teacher-button .img-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.teacher-button .img-box img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  border: solid 1px white;
+  position: relative;
+}
+
+.teacher-button .img-box img:nth-child(1) {
+  z-index: 0;
+}
+
+.teacher-button .img-box img:nth-child(2) {
+  z-index: 1;
+  margin-left: -10px;
+}
+
+.teacher-button .img-box img:nth-child(3) {
+  z-index: 2;
+  margin-left: -10px;
+}
+
+.teacher-button .img-box img:nth-child(4) {
+  z-index: 3;
+  margin-left: -10px;
+}
+.teacher-button .img-box img:nth-child(5) {
+  z-index: 4;
+  margin-left: -10px;
+}
+
+.teacher-button .img-box .plus {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.teacher-button .img-box .plus span {
+  font-size: 16px;
+  font-weight: 600;
+}

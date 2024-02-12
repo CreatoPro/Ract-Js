@@ -1,0 +1,19 @@
+https://github.com/vipinkatiyarknp/reactjs-pwa-firebase
+
+1. Create push-notification.js in src folder
+2. Create firebase-messaging-sw.js in public folder where index.html exists.
+3. In index.js add following code
+import { initializeFirebase, askForPermissionToReceiveNotifications } from "./push-notification";
+ 
+initializeFirebase();
+if(!localStorage.getItem("notification-token")) {
+    askForPermissionToReceiveNotifications();
+}
+
+https://dzone.com/articles/push-notification-pwa-reactjs-using-firebase
+
+https://codeburst.io/how-to-add-push-notifications-on-firebase-cloud-messaging-to-react-web-app-de7c6f04c920
+
+
+Service Worker Error:
+https://medium.com/practical-code-labs/firebase-fcm-react-project-issue-failed-to-register-a-serviceworker-b9c5573caffa

@@ -1,0 +1,509 @@
+{
+    "numberOfRowsPerPage": 50,
+    "nextPage": 1,
+    "resultSize": 1345,
+    "timeTables": [
+        {
+            "endDate": "Mar 04, 2022",
+            "name": "Master of Science in Public Health | 2021 FALL | Semester 1 | University Exam PG",
+            "id": 1404,
+            "type": 2,
+            "startDate": "Mar 02, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Higher Education Certificate-F20 | 2021 FALL | Semester 1 | University Exam",
+            "id": 1362,
+            "type": 2,
+            "startDate": "Feb 21, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Diploma in Business Administration | 2020 FALL | Semester-3 | University Exam",
+            "id": 1367,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Business | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1368,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Marketing | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1369,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Marketing | 2020 FALL | Semester-3 | University Exam",
+            "id": 1370,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Business | 2020 FALL | Semester-3 | University Exam",
+            "id": 1371,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Business | 2019 FALL | Semester-5 | University Exam",
+            "id": 1373,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Commerce | 2019 FALL | Semester-5 | University Exam",
+            "id": 1376,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Applied Accounting | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1378,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Applied Accounting | 2020 Spring | Semester-4 | University Exam",
+            "id": 1379,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Applied Accounting | 2019 FALL | Semester-5 | University Exam",
+            "id": 1380,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 23, 2022",
+            "name": "Bachelor of Hotel Management | 2018 FALL | Semester-7 | University Exam",
+            "id": 1383,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Business Administration | 2021 SPRING | Semester-2 | University Exam PG",
+            "id": 1384,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Business Administration | 2020 FALL | Semester-3 | University Exam PG",
+            "id": 1385,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Post Graduate Diploma in Business Administration | 2021 SPRING | Semester-2 | University Exam PG",
+            "id": 1391,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 23, 2022",
+            "name": "Bachelor of Science in Hospitality and Tourism Management | 2019 FALL | Semester-5 | University Exam",
+            "id": 1398,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Applied Economics | 2020 FALL | Semester-3 | University Exam",
+            "id": 1399,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Business Administration-F21 | 2021 FALL | Semester 1 | University Exam PG",
+            "id": 1400,
+            "type": 2,
+            "startDate": "Feb 14, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Bachelor of Science in Networking and Cyber Security | 2019 SPRING | Semester-6 | University Exam",
+            "id": 1344,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Bachelor of Science in Applied Information Technology | 2019 SPRING | Semester-6 | University Exam",
+            "id": 1347,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 11, 2022",
+            "name": "Bachelor of Science in Computer Engineering | 2018 SPRING | Semester-8 | University Exam",
+            "id": 1356,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 11, 2022",
+            "name": "Bachelor of Engineering in Electronics And Communication | 2018 SPRING | Semester-8 | University Exam",
+            "id": 1357,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Diploma in Information Technology | 2020 Spring | Semester-4 | University Exam",
+            "id": 1365,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Business Administration | 2020 Spring | Semester-4 | University Exam PG",
+            "id": 1386,
+            "type": 2,
+            "startDate": "Feb 11, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Networking and Cyber Security | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1340,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Networking and Cyber Security | 2020 FALL | Semester-3 | University Exam",
+            "id": 1341,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Engineering in Electronics And Communication | 2019 FALL | Semester-5 | University Exam",
+            "id": 1360,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Diploma in Information Technology | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1363,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Diploma in Hardware and Networking | 2020 Spring | Semester-4 | University Exam",
+            "id": 1366,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Bachelor of Science in Applied Accounting | 2019 SPRING | Semester-6 | University Exam",
+            "id": 1381,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Bachelor of Hotel Management | 2019 SPRING | Semester-6 | University Exam",
+            "id": 1382,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Science in Information Technology | 2021 SPRING | Semester-2 | University Exam PG",
+            "id": 1388,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 22, 2022",
+            "name": "Master of Science in Information Technology | 2020 FALL | Semester-3 | University Exam PG",
+            "id": 1389,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Artificial Intelligence and Machine Learning | 2020 FALL | Semester-3 | University Exam",
+            "id": 1397,
+            "type": 2,
+            "startDate": "Feb 10, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Applied Information Technology | 2020 Spring | Semester-4 | University Exam",
+            "id": 1346,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Computer Engineering | 2020 Spring | Semester-4 | University Exam",
+            "id": 1353,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Engineering in Electronics And Communication | 2018 FALL | Semester-7 | University Exam",
+            "id": 1361,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Business Administration in International Business | 2020 Spring | Semester-4 | University Exam",
+            "id": 1372,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Commerce | 2020 Spring | Semester-4 | University Exam",
+            "id": 1375,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Animation and Visual Effects | 2020 FALL | Semester-3 | University Exam",
+            "id": 1394,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Hotel Management | 2019 FALL | Semester-5 | University Exam",
+            "id": 1402,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Higher Education Certificate-F20 | 2021 SPRING | Semester 2 | University Exam",
+            "id": 1403,
+            "type": 2,
+            "startDate": "Feb 09, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Networking and Cyber Security | 2020 Spring | Semester-4 | University Exam",
+            "id": 1342,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Networking and Cyber Security | 2019 FALL | Semester-5 | University Exam",
+            "id": 1343,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 18, 2022",
+            "name": "Bachelor of Science in Applied Information Technology | 2020 FALL | Semester-3 | University Exam",
+            "id": 1345,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Animation and Visual Effects | 2021 SPRING | Semester-2 | University Exam",
+            "id": 1348,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 21, 2022",
+            "name": "Bachelor of Science in Multimedia and Animations | 2019 FALL | Semester-5 | University Exam",
+            "id": 1349,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 17, 2022",
+            "name": "Bachelor of Science in Multimedia and Animations | 2019 SPRING | Semester-6 | University Exam",
+            "id": 1350,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        },
+        {
+            "endDate": "Feb 18, 2022",
+            "name": "Bachelor of Science in Applied Information Technology | 2019 FALL | Semester-5 | University Exam",
+            "id": 1351,
+            "type": 2,
+            "startDate": "Feb 08, 2022",
+            "remarks": "",
+            "publishStatus": "",
+            "editTimeTable": "false"
+        }
+    ],
+    "currentPage": 0,
+    "studentBatches": []
+}

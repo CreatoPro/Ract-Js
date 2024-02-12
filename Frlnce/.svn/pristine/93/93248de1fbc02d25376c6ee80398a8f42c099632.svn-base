@@ -1,0 +1,35 @@
+.product h4.head{
+	width:60% !important;
+}
+
+.Product .cardbody img{
+    width:50px;float:left;padding:5px;border-radius: 40px;height: 50px;
+}
+.Product .cardbody h4.head{
+    color:#333;
+    float: left;
+    margin: 15px 0px;
+    font-size: 15px;
+    width:72%;
+    text-align:left;
+}
+.Product .cardbody svg{
+    float: right;margin: 15px;
+}
+
+.page-product-details img{
+    height: 450px;
+    object-fit: cover;
+}
+
+.PaymentConfirm.swal-modal {
+    width: 300px !important;
+}
+
+.PaymentConfirm .swal-button--danger {
+    width: 160px !important;
+} 
+
+.PaymentConfirm  .swal-footer {
+    padding: 13px 10px !important;
+}

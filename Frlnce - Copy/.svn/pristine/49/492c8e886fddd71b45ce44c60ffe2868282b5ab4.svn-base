@@ -1,0 +1,81 @@
+.Analysis .cardbody img{
+    width:50px;float:left;padding:5px;border-radius: 40px;height: 50px;
+}
+.Analysis .cardbody h4.head{
+    color:#333;
+    float: left;
+    margin: 15px 0px;
+    font-size: 17px;
+    width:72%;
+    text-align:left;
+}
+.Analysis .cardbody{
+    padding:10px;
+	border-bottom:1px solid #eee; 
+	min-height:60px;
+}
+.Analysis .cardbody svg{
+    float: right;margin: 15px;
+}
+.analysis_details img{
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+	float:none !important;
+}
+.analysis_details .card{
+    margin-top:55px;
+}
+
+.analysis_details .cardbody{
+  clear:both;
+}
+
+.analysis_details .cardbody h4.head {
+    color: #333;
+    float: left;
+    margin: 8px 0px;
+    font-size: 15px;
+    width: 72%;
+    text-align: left;
+}
+.AnalysisReport h4{
+   margin-left:24px;
+   font-size:16px;
+}
+.testFileupload h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px !important;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.full-width{
+    width:100% !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.testFileupload .error{
+	color: red;
+}
+.no_result{
+    text-align: center;
+    width: 100%;
+    color: red;
+    font-size: 16px !important;
+    padding: 1px;
+    margin-bottom: 10px;
+    margin-left: 0 !important;
+
+}
+.examList .cardbody {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    min-height: 72px;
+}

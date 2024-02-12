@@ -1,0 +1,114 @@
+table {
+    border: 1px solid gainsboro;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    align-content: center;
+  }
+td{
+    border: 1px solid gainsboro;
+    padding: 1%;
+    margin: 1%;
+    border-collapse: collapse;
+    text-align: center;
+    align-content: center;
+  }
+th{
+    border: 2px solid gainsboro;
+    /* background-color: #5da315; */
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    border-collapse: collapse;
+    text-align: center;
+    align-content: center;
+  }
+h1{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+.inl{
+  display: inline-block;
+  text-align: left;
+  padding: 1%;
+}
+.date{
+  font-size: 14px;
+  font-weight: 600;
+  align-content: center;
+  vertical-align: center;
+  text-align: center;
+}
+.smy{
+  color: grey;
+  font-size: small;
+}
+.day{
+  font-size: medium;
+}
+.test{
+  text-align: left;
+  padding: 2%;
+}
+.time{
+  color: white;
+  background-color: #5da315;
+  padding: 5px;
+  vertical-align: text-top;
+  font-size: smaller;
+  border-radius: 10px;
+}
+.tstn{
+  margin-top: 10px;
+  font-size: large;
+}
+.whole{
+  width: 20vw;
+}
+.left{
+  text-align: left;
+  padding: 2%;
+  padding-left: 5%;
+}
+.green-card {
+  background-image: -webkit-linear-gradient(0deg, #5da315 0%, #91cb14 100%);
+}
+.view{
+  color: white;
+  background-color: #5da315;
+  padding: 3px;
+  vertical-align: text-top;
+  font-size: smaller;
+  border-radius: 10px;
+}
+.col1{
+  width: 22.2%;
+}
+/* .col2{
+  width:80%;
+} */
+#uncontrolled-tab-example-tab-Completed.active{
+  border-bottom: 5px solid rgb(93, 163, 21) !important;
+}
+#uncontrolled-tab-example-tab-Upcoming.active{
+  border-bottom: 5px solid rgb(93, 163, 21) !important;
+}
+nav a{
+	width: 50%;
+	padding: 3px 0px;
+	display: block;
+	float: left;
+	text-align: center;
+    /* border-bottom: 1px solid #337ab7 !important; */
+}
+.noexam{
+  text-align: center;
+  margin: 10%;
+  font-size: larger;
+}
+.bold{
+  font-weight: 500;
+}

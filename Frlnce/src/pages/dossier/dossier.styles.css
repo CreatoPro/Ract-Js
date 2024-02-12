@@ -1,0 +1,21 @@
+.dossier-frame {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0px;
+}
+
+.course-details{
+  color: #333;
+  float: left;
+  margin: 15px 0px;
+  font-size: 16px;
+  width: 72%;
+  text-align: left;
+}

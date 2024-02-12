@@ -1,0 +1,7 @@
+MediaElement Installation Steps:
+
+1. npm install mediaelement
+
+2. npm install hls.js
+
+3. npm install flv.js

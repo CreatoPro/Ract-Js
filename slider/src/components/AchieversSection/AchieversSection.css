@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Figtree;
+  src: url("https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+}
+
+.achievers-section {
+  background: url("../../assets/images/achive-bg.png"),
+    #6698fa center center no-repeat;
+  background-size: cover;
+  margin: 86px 0px;
+  font-family: "Figtree", sans-serif;
+  padding: 80px 0px;
+}
+
+@media (min-width: 1200px) {
+  .achievers-section {
+    background: url("../../assets/images/achive-bg.png") no-repeat center center;
+    padding: 0 0 155px;
+  }
+}
+
+.achievers-section h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.achievers-section h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .achievers-section h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+  .achievers-section h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.achievers-section .student-img {
+  text-align: center;
+  margin-bottom: -27px;
+  z-index: 2;
+}
+
+.achievers-section .details-box {
+  background-color: #003e82;
+  text-align: center;
+  padding: 44px 0 20px;
+  border-radius: 15px;
+  z-index: 1;
+  margin: auto;
+  max-width: 195px;
+}
+
+.achievers-section .details-box .rank {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.achievers-section .details-box .rank::after {
+  content: url("../../assets/images/star.png");
+  margin: 0 7px;
+}
+.achievers-section .details-box .rank::before {
+  content: url("../../assets/images/star.png");
+  margin: 0 7px;
+}
+
+.achievers-section .details-box .name {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}

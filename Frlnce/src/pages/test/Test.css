@@ -1,0 +1,457 @@
+.questions_list {
+    margin: 0 auto;
+}
+
+.question {
+    text-align: left;
+	font-weight:500;
+	padding: 5px 15px;
+	line-height:21px;
+	margin-bottom:50px;
+}
+
+.question p{
+	margin: 0 0 5px !important;
+}
+.question img{
+  max-width: 100% !important;
+  height: auto;
+}
+
+.option {
+    border: 1px solid #f6f6f6;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.question_num {
+    float: left;
+    margin-right:5px;
+	font-weight:bold;
+	color:#03F;
+	font-size:16px;
+}
+
+.question_marks {
+    float: left;
+    margin-right:5px;
+	font-weight:bold;
+	color:#060;
+	font-size:16px;
+}
+
+.question_neg_marks {
+    float: left;
+    margin-right:5px;
+	font-weight:bold;
+	color:#F00;
+	font-size:16px;
+}
+
+.question_panel {
+    float: right;
+    margin-right:5px;
+	font-weight:bold;
+	color:#03F;
+	font-size:16px;
+}
+ /* Customize the label (the checkbox) */
+.option_container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight:400;
+}
+
+/* Hide the browser's default radio button */
+.option_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.option_container .checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.option_container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.option_container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.option_container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.option_container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.option_container .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+} 
+
+.test-header {
+  color:#fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 998;
+}
+.test-header h4{
+  margin: 0px;
+  padding: 20px 5px;
+  font-weight: bold;
+  width: 60%;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:16px;
+}
+
+.timer{
+    position: absolute;
+	z-index: 100000;
+	top: 18px;
+	text-align: right;
+	right: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	width: 30%;
+}
+
+.questions_list .btn-primary{
+    background-image: -webkit-linear-gradient(0deg, #1d7ed5 0%, #15bae3 100%);
+    border: none;
+    border-radius: 0;
+    width: 25%;
+    font-size: 18px;
+	padding:10px;
+}
+
+.questions_list .btn-danger{
+    background-image: -webkit-linear-gradient(0deg, #fb853f 0%, #fda446 37%, #fec24d 99%);
+    border: none;
+    border-radius: 0;
+    width: 25%;
+    font-size: 18px;
+	padding:10px;
+}
+
+.testButtons{
+	bottom:0px;
+	position:fixed;
+	width:100%;
+}
+.questionHeader{
+   width:100%;
+   background: #f6f6f6;
+   height: 55px;
+   margin-top: 55px;
+   padding:10px 15px;
+}
+
+
+
+
+.QuestionsSidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: 12px 12px 40px #333;
+}
+.sidenavclose{
+  width: 30px;
+  top: 14px;
+  position: absolute;
+  text-align: right;
+  right: 15px;
+  font-size: 24px;
+}
+.QuestionsSidenav h4{
+	text-align: left;
+	font-size: 20px;
+	padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .QuestionsSidenav {padding-top: 15px;}
+}
+.questionspanelno{
+	margin-top: 65px;
+	padding: 10px;
+}
+.questionspanelno p{
+	font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid#333;
+    padding: 5px;
+}
+.questionstatus{
+  border-bottom: 1px solid#555;
+  height: 80px;
+}
+
+.questionstatus span{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  box-shadow: 0px 1px 1px 1px #888;
+  float: left;
+}
+
+.answered{
+  background:#2da34a !important;
+  color: #fff !important;
+}
+
+.marked{
+  background:#6C43F3 !important;
+  color: #fff !important;
+}
+
+.markedanswered{
+  background:#FECE03 !important;
+  color: #fff !important;
+}
+
+.notanswered{
+  background:#F33D40 !important;
+  color: #fff !important;
+}
+
+.notvisited{
+  background:#F1F1F1;
+  color: #111 !important;
+}
+
+.questionsnumbers{
+   clear:both;
+}
+.questionspanelno .questions-list button{
+  background:#F1F1F1;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  box-shadow: 0px 1px 1px 1px #888;
+  float: left;
+  width: 32px;
+  color:#333;
+  border-color:#999 !important;
+}
+.testlist{
+  margin-top: 50px;
+}
+.testlist .card{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.testlist .card .cardbody {
+  width: 100%;
+  background:  #fff;
+  /*min-height: 40px !important;*/
+  margin: 0px;
+  padding: 5px;
+}
+.testlist .card .option {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  padding: 0px;
+  border-radius: 0px;
+  text-align: left;
+  float: left;
+  width: 65%;
+}
+.card{
+  clear:both;
+}
+
+.testclose {
+    top: 12px;
+	font-size: 24px;
+	width: 10%;
+	float: left;
+	position: relative;
+	left:10px;
+}
+
+.download {
+  /* float: right; */
+  padding: 5px;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 11px;
+  width: 80px;
+  border:none;
+  text-transform: uppercase;
+}
+
+.testdate{
+  font-size: 11px;
+}
+
+.testlist .Book {
+  float: left !important;
+  margin: 10px !important;
+  font-size: 18px;
+}
+
+.testResult table, .testResult .testgraph{
+  width: 100%;
+  margin: 0px;
+  background: #fff;
+}
+
+.testResult table th{
+  color: #fff;
+  padding: 5px;
+}
+.testResult table td{
+  padding: 5px;
+}
+.testResult table tr{
+  border-bottom: 1px solid #eee;
+}
+.testResult .card_list{
+background: #f4f4f4;
+padding: 5px;
+}
+
+.testResult{
+  padding: 10px;
+}
+
+.testResult .card_list {
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 1px #888;
+}
+
+.testResult h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px !important;
+  padding: 5px;
+  font-weight: bold;
+}
+
+iframe{
+  border: none;
+}
+
+.resultbtn{
+  width: 98%;
+  padding: 5px;
+  margin: 5px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 2px 1px #888;
+}
+
+.match_opts .option_container{
+  display: inline;
+  padding-left: 50px;
+}
+
+.match_opts .option_container .mark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.stratTest{
+  bottom: 2px;
+  position: fixed;
+  width: 100%;
+  margin-left: -15px;
+  background-image: -webkit-linear-gradient(0deg, #5da315 0%, #91cb14 100%);
+  border-radius: 0px;
+  color: #fff;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#num_opt textarea{
+  width: 100%;
+  min-height: 100px;
+}
+
+.testlist .download_list.card_list .sno {
+  width: 5%;
+  float: left;
+  text-align: left;
+}
+
+.question .mobile.test_instructions table{
+  width: 100% !important;
+}
+
+.test_summary_card {
+  border-radius: 3px;
+  border-color: rgb(29, 126, 213);
+  border: rgb(29, 126, 213) 1px solid;
+}
+
+.test_summary_card table th {
+  color: #000000;
+}
+
+.test_summary_card h4 {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .testlist .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.5rem;
+  }
+
+}

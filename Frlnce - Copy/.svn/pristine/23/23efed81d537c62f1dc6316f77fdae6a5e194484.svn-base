@@ -1,0 +1,11 @@
+#notes-card{
+    margin: 10px;
+    background: #f5f5f5;
+    border: 1px solid hsla(0,0%,51.4%,.16);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#notes-heading{
+    padding: 0;
+}

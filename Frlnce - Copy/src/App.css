@@ -1,0 +1,393 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+:root {
+    --primary-color: #ad2841;
+    --primary-hover-color: #063a6f;
+    --primary-focus-color: rgba(2, 81, 162, 0.15);
+    --secondary-color: #eee;
+    --secondary-hover-color: #0251a2;
+    --secondary-focus-color: rgba(2, 81, 162, 0.15);
+    --portlet-color1: #030044;
+    --portlet-color2: #0C2574;
+    --portlet-color3: #6D1144;
+    --portlet-color4: #991328;
+    --portlet-color5: #E51515;
+    --portlet-color6: #F45C13;
+    --portlet-color7: #11386A;
+    --portlet-color8: #1A5395;
+    --portlet-color9: #061738;
+    --portlet-color10: #AA1A17;
+    --portlet-color11: #5F171F;
+    --portlet-color12: #54AFAA;
+}
+
+.portlet-color1 {
+    background: var(--portlet-color1) !important;
+}
+
+.portlet-color2 {
+    background: var(--portlet-color2) !important;
+}
+
+.portlet-color3 {
+    background: var(--portlet-color3) !important;
+}
+
+.portlet-color4 {
+    background: var(--portlet-color4) !important;
+}
+
+.portlet-color5 {
+    background: var(--portlet-color5) !important;
+}
+
+.portlet-color6 {
+    background: var(--portlet-color6) !important;
+}
+
+.portlet-color7 {
+    background: var(--portlet-color7) !important;
+}
+
+.portlet-color8 {
+    background: var(--portlet-color8) !important;
+}
+
+.portlet-color9 {
+    background: var(--portlet-color9) !important;
+}
+
+.portlet-color10 {
+    background: var(--portlet-color10) !important;
+}
+
+.portlet-color11 {
+    background: var(--portlet-color11) !important;
+}
+
+.portlet-color12 {
+    background: var(--portlet-color12) !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+/*#page-wrap {
+    text-align: center;
+    overflow: auto;
+}*/
+
+header {
+    display: none;
+}
+
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: white;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #bdc3c7;
+}
+
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.h1,
+h1 {
+    font-size: 32px;
+}
+
+.bm-burger-button {
+    width: 24px !important;
+    height: 24px !important;
+    left: 15px !important;
+    top: 8px !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.bm-menu-wrap {
+    width: 260px !important;
+}
+
+.bm-menu {
+    background: #fff;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-container img.background {
+    vertical-align: middle;
+    width: 100%;
+    height: 110px;
+}
+
+.menu-container .title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+    float: left;
+    margin-right: 5px;
+}
+
+.menu-container .title {
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.menu-container .title p {
+    float: left;
+    word-wrap: break-word;
+    width: 180px;
+    line-height: 18px;
+}
+
+.bm-menu {
+    padding: 0;
+}
+
+.bm-menu .bm-item-list a {
+    color: #666;
+    text-align: left !important;
+    padding: 6px 15px;
+}
+
+.bm-menu .bm-item-list a svg {
+    margin-right: 10px;
+}
+
+/* Loading  */
+
+.loading2 {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: visible;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading2:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.loading2 span {
+    width: 145px;
+    background: #f6f6f6;
+    padding: 12px;
+    z-index: 99999;
+    position: absolute;
+    box-shadow: 2px 2px 2px #888;
+    display: block;
+    margin-left: -50px;
+}
+
+@keyframes loading2-spinner-inner {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.loading2-spinner-inner div {
+    position: absolute;
+    animation: loading2-spinner-inner 1s linear infinite;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 5px 0 0 #5baee1;
+    transform-origin: 40px 42.9px;
+}
+
+.loading2-spinner {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+
+.loading2-spinner-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(0.24);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.loading2-spinner-inner div {
+    box-sizing: content-box;
+}
+
+.loading2 .content {
+    float: left;
+    padding: 4px 10px;
+    color: #666;
+    font-size: 15px;
+}
+
+/* Loading  end */
+
+.swal-title {
+    margin: 0 !important;
+    background-image: -webkit-linear-gradient(0deg, #fb853f 0%, #fda446 37%, #fec24d 99%);
+    color: #fff !important;
+    font-size: 21px !important;
+}
+
+.swal-modal {
+    width: 250px !important;
+}
+
+.swal-text {
+    margin-top: 8px !important;
+}
+
+.swal-button--cancel {
+    width: 98px;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+.swal-button--danger {
+    background-color: #e64942;
+    width: 98px;
+    border-radius: 0px !important;
+}
+
+.swal-button-container {
+    border: none !important;
+}
+
+.Offline {
+    padding: 3px;
+    background-color: #f44336;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 12px;
+    z-index: 9999999999999;
+    text-align: center;
+}
+
+.Offline .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Offline .closebtn:hover {
+    color: black;
+}

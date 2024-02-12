@@ -1,0 +1,9 @@
+.test-listing-download-solution{
+    position: absolute;
+    top: 0;
+    right: 22px;
+}
+
+.test-listing-arrow-set{
+    position: relative;
+}

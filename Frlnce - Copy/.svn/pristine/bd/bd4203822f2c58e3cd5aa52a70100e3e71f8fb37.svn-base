@@ -1,0 +1,265 @@
+.page-quiz-zone {
+  background-color: #f0f0f0;
+}
+
+/*--------Quiz Player CSS START--------*/
+
+.quiz-player-back {
+  left: 5px;
+  top: 0px;
+  padding: 15px;
+  color: #fff;
+  line-height: 1;
+  display: flex;
+  float: left;
+}
+
+.quiz-player-timer {
+  float: right;
+  padding: 5px;
+  font-size: 11px;
+  min-width: 95px;
+  text-transform: uppercase;
+  font-size: medium;
+  color: #fff;
+}
+
+.quiz-header {
+  /*font-size: 15px;*/  
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 2px !important;
+}
+
+.question-header {
+  background-color: #ddd;
+  padding:5px !important
+}
+
+.question-number {
+  font-weight:bold;
+  font-size:14px;
+  color:#0000FF;
+}
+
+.question-choice {
+  padding: 0.50rem;
+}
+
+.question-choice-item-inner {
+  padding-left: 0px;
+}
+
+.normal {
+  background-color: #fff;
+  color: black;
+  font-size:.875rem;
+}
+
+.correct {
+  /*background-color:#33cd5f;
+  color: #ffffff !important;
+  border-color: #33cd5f !important;*/
+  color: #3c763d !important;
+  background-color: #dff0d8 !important;
+  border-color: #d6e9c6 !important;
+  font-size:.875rem;
+}
+
+.wrong {
+  /*background-color:#ef473a;
+  color: #ffffff !important;
+  border-color: #ef473a !important;*/
+  color: #a94442 !important;
+  background-color: #f2dede !important;
+  border-color: #ebccd1 !important;
+  font-size:.875rem;
+}
+/*--------Quiz Player CSS END--------*/
+
+/*--------Quiz Result CSS START--------*/
+.circle {
+  /* display: block; */
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #0a9ec7;
+  border-style: solid;
+  line-height: 1em;
+}
+
+/*--------Quiz Result CSS END--------*/
+
+/*--------LeaderBoard CSS START--------*/
+
+.leader-board-header-col {
+  padding-right: 2px; 
+  padding-left: 2px;
+  font-weight: bold;
+}
+.leader-board-header-rank {
+  max-width: 9.2rem;  
+}
+.leader-board-header-coins {
+  max-width: 8rem;
+  text-align: right;
+}
+
+.leader-board-item {
+  padding: .50rem .75rem;
+}
+
+.leader-board-row {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.col-rank-no-padding {
+  font-size: medium;
+  padding: 8px 0px 2px 0px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 22px;
+  width: 42px;
+  max-width: 42px;
+  border: none !important;
+}
+
+.col-photo {
+  font-size: medium;
+  padding: 2px 0px 2px 2px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 22px;
+  width: 36px;
+  max-width: 36px;
+  border: none !important;
+}
+
+.leaderboard-photo {
+  display: block;
+  height: 36px !important;
+  width: 36px !important;
+  /* border-radius: 50%; */
+  border: 2px solid #0A9EC7;
+  border-style: solid;
+  line-height: 1em;
+  background-image: url(./images/man-24.png);
+  background-position: center center;
+  background-color: #11C1F3;
+  background-repeat: no-repeat;
+}
+
+.col-name {
+  font-size: medium;
+  padding: 8px 0px 8px 16px;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 22px;
+  width: 100%;
+  border: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-coins {
+  font-size: small;
+  padding: 8px 0px 8px 0px;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 22px;
+  width: 48px;
+  max-width: 54px;
+  float: right;
+  border: none !important;
+  background-image: url(./images/coins-gold-32.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: blue;
+}
+
+.leaderboard-active-row{
+  border: 2px solid #28A54C;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+/*--------LeaderBoard CSS END--------*/
+
+/*--------Wallet CSS START--------*/
+
+.wallet-item {
+  padding: .50rem .75rem;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,.125);
+}
+
+.wallet-item:last-child {
+  border-bottom:none;  
+}
+
+.wallet-coin {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  display:inline-flex;
+}
+
+.wallet-item-border {
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,.125);
+}
+
+.circle-plus {
+  height: 4.5rem !important;
+  width: 4.5rem !important;
+  max-height: 4.5rem !important;
+  max-width: 4.5rem !important;
+  border-radius: 50%;
+  border: 2px solid #28A54C;
+  border-style: solid;
+  line-height: 1em;
+  background-image: url(./images/coins-plus.png);
+  background-position: center center;
+  background-color: #33CD5F;
+  background-repeat: no-repeat;
+  margin-top: 5px !important;
+  margin-bottom: 4px !important;
+}
+
+.circle-minus {
+  /*display:block;*/
+  height: 4.5rem !important;
+  width: 4.5rem !important;
+  max-height: 4.5rem !important;
+  max-width: 4.5rem !important;
+  border-radius: 50%;
+  border:2px solid #E42012;  /* red(assertive): #E42012;  green(balanced): #28A54C */
+  border-style: solid;
+  line-height:1em;
+  background-image: url("./images/coins-minus.png");
+  background-position:center center;
+  background-color: #EF473A;  /* red(assertive): #EF473A ;   green(balanced): #33CD5F */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /*background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: 5px !important;
+  margin-bottom: 4px !important;
+}
+
+.wallet-transaction-remarks {
+  font-size: small;
+}
+
+.wallet-transaction-coins {
+  width: 48px;
+  max-width: 54px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/*--------Wallet CSS END--------*/

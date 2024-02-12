@@ -1,0 +1,112 @@
+[
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.isbatedu.ilearn",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.nttf",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.nucleus",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.isbatedu",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.gramtarang",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.ants",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.vschool",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.aptech",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.abhyaas.ilearn",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.naidisha",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.macs",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.mvsacademy",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.volksy",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.nucedu",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.ascentria",
+               "sha256_cert_fingerprints": ["AE:2B:25:92:B1:66:DD:CE:56:EE:EE:CD:95:99:74:7F:36:BA:BA:C3:47:6A:C2:4C:B0:A0:8F:AC:B8:60:48:65"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.kihrd",
+               "sha256_cert_fingerprints": ["06:32:8B:42:3A:83:40:02:22:8A:23:7E:0D:9D:D2:DA:DF:4B:29:D7:9E:E3:76:CF:A0:D2:8E:C0:64:21:14:5C"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.spectrum",
+               "sha256_cert_fingerprints": ["D5:BB:91:5B:1D:11:D5:BF:3C:0F:47:D8:FC:53:5C:7D:7A:C0:F5:29:23:FE:EC:9E:7D:68:D9:56:A1:5A:9D:23"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.tekhya",
+               "sha256_cert_fingerprints": ["FE:A3:B2:D7:97:F5:36:EA:B7:C0:C4:BC:76:65:1C:A8:0E:90:53:66:89:DC:E7:35:4C:89:C1:88:8E:B2:76:A6"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.cf",
+               "sha256_cert_fingerprints": ["57:7C:C1:BF:3A:EC:53:AD:72:8C:1C:3C:ED:64:F6:15:14:87:B7:63:0B:DB:66:20:C9:79:F8:BE:08:44:7E:2C"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.wiztoonz",
+               "sha256_cert_fingerprints": ["57:7C:C1:BF:3A:EC:53:AD:72:8C:1C:3C:ED:64:F6:15:14:87:B7:63:0B:DB:66:20:C9:79:F8:BE:08:44:7E:2C"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.ifacet",
+               "sha256_cert_fingerprints": ["57:7C:C1:BF:3A:EC:53:AD:72:8C:1C:3C:ED:64:F6:15:14:87:B7:63:0B:DB:66:20:C9:79:F8:BE:08:44:7E:2C"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.conceptwaves.ilearn.writealong",
+               "sha256_cert_fingerprints": ["57:7C:C1:BF:3A:EC:53:AD:72:8C:1C:3C:ED:64:F6:15:14:87:B7:63:0B:DB:66:20:C9:79:F8:BE:08:44:7E:2C"] }
+}
+]

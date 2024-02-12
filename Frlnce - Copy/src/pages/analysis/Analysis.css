@@ -1,0 +1,94 @@
+/*.Analysis .cardbody {
+    width: 98%;
+    background: #fff;
+    height: auto;
+    margin: 3px;
+    padding: 0px;
+    border-bottom: 1px solid #f6f6f6;
+}*/
+/*
+.Analysis .cardbody img{
+    width:50px;float:left;padding:5px;border-radius: 40px;height: 50px;
+}
+.Analysis .cardbody h4.head{
+    color:#333;
+    float: left;
+    margin: 15px 0px;
+    font-size: 15px;
+    width:72%;
+    text-align:left;
+}
+.Analysis .cardbody svg{
+    float: right;margin: 15px;
+}
+.analysis_details img{
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+	float:none !important;
+}
+.learn-orange-card2 h4, .learn-header{
+    text-align:center;
+}
+
+.analysis_details .card{
+    margin-top:50px;
+}
+.analysis_details .cardbody{
+	min-height:50px;
+	margin:10px 5px;
+}
+.analysis_details .cardbody h4.head {
+    color: #333;
+    float: left;
+    margin: 8px;
+    font-size: 15px;
+    width: 72%;
+    text-align: left;
+}*/
+
+.Analysis .cardbody img{
+    width:50px;float:left;padding:5px;border-radius: 40px;height: 50px;
+}
+.Analysis .cardbody h4.head{
+    color:#333;
+    float: left;
+    margin: 15px 0px;
+    font-size: 17px;
+    width:72%;
+    text-align:left;
+}
+.Analysis .cardbody{
+    padding:10px;
+	border-bottom:1px solid #eee; 
+	min-height:60px;
+}
+.Analysis .cardbody svg{
+    float: right;margin: 15px;
+}
+.analysis_details img{
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+	float:none !important;
+}
+.analysis_details .card{
+    margin-top:55px;
+}
+
+.analysis_details .cardbody{
+  clear:both;
+}
+
+.analysis_details .cardbody h4.head {
+    color: #333;
+    float: left;
+    margin: 8px 0px;
+    font-size: 15px;
+    width: 72%;
+    text-align: left;
+}
+.AnalysisReport h4{
+   margin-left:24px;
+   font-size:16px;
+}

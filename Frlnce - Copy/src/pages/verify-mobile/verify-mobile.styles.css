@@ -1,0 +1,14 @@
+.work-sans-font{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.verify-mobile-support{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+.verify-mobile-support-email{
+    font-weight: 600;
+}
