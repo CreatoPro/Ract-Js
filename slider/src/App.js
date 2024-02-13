@@ -5,6 +5,7 @@ import AchieversSection from "./components/AchieversSection/AchieversSection";
 import TeacherButton from "./components/TeacherButton/TeacherButton";
 import ResponsiveCarousel from "./components/ResponsiveCarousel/ResponsiveCarousel";
 import TestSlider from "./components/TestSlider/TestSlider";
+import BootstrapTab from "./components/BootstrapTab/BootstrapTab";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <StudentSlider />
       <AchieversSection /> */}
       {/* <TeacherButton /> */}
-      <ResponsiveCarousel />
+      {/* <ResponsiveCarousel /> */}
       {/* <TestSlider /> */}
+      <BootstrapTab />
     </div>
   );
 }
