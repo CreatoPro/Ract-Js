@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Tabs.css";
+import "./tabs.css";
 import { facultydata } from "../../data/data";
 // import icon from "@/images/teacher-carousel-icon.png";
 import Image from "next/image";
