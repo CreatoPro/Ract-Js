@@ -2,10 +2,10 @@
 import { facultydata } from "../data/data";
 import { useSearchParams } from "next/navigation";
 
-const ProfilePage1 = () => {
+const ProfilePage4 = () => {
   const searchParams = useSearchParams();
   const name = searchParams.get("teacher");
-  const facultyMember = facultydata[0].prof1.find(
+  const facultyMember = facultydata[0].prof4.find(
     (member) => member.name == name
   );
   console.log(facultyMember);
@@ -32,4 +32,4 @@ const ProfilePage1 = () => {
   );
 };
 
-export default ProfilePage1;
+export default ProfilePage4;

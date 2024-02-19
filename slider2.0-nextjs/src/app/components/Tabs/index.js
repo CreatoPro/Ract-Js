@@ -74,11 +74,10 @@ const Tabs = () => {
                   </div>
                   <p>
                     {prof.description} <br />
-                    {/* <Link href={`/prof1/${prof.id}`}>Know More</Link> */}
                     <Link
                       href={{
                         pathname: "/prof1",
-                        query: { query: `${prof.id}` },
+                        query: { teacher: `${prof.name}` },
                       }}
                     >
                       Know More
@@ -111,7 +110,14 @@ const Tabs = () => {
                   </div>
                   <p>
                     {prof.description} <br />
-                    <Link href={`/prof2/${prof.id}`}>Know More</Link>
+                    <Link
+                      href={{
+                        pathname: "/prof2",
+                        query: { teacher: `${prof.name}` },
+                      }}
+                    >
+                      Know More
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -140,7 +146,14 @@ const Tabs = () => {
                   </div>
                   <p>
                     {prof.description} <br />
-                    <Link href={`/prof3/${prof.id}`}>Know More</Link>
+                    <Link
+                      href={{
+                        pathname: "/prof3",
+                        query: { teacher: `${prof.name}` },
+                      }}
+                    >
+                      Know More
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -169,7 +182,14 @@ const Tabs = () => {
                   </div>
                   <p>
                     {prof.description} <br />
-                    <Link href={`/prof4/${prof.id}`}>Know More</Link>
+                    <Link
+                      href={{
+                        pathname: "/prof4(Allied)",
+                        query: { teacher: `${prof.name}` },
+                      }}
+                    >
+                      Know More
+                    </Link>
                   </p>
                 </div>
               </div>
