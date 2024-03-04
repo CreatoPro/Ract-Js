@@ -1,0 +1,35 @@
+.modal-body {
+  padding: 30px !important;
+  background: url("../images/modal-bg.png") no-repeat bottom center,
+    linear-gradient(#d9eafa, #d9eafa);
+  background-size: cover;
+  border-radius: 6px;
+}
+.bottom-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bottom-img {
+    display: block;
+  }
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
+.modal-dialog {
+  max-width: 870px !important;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 670px !important;
+  }
+}
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 900px !important;
+  }
+}

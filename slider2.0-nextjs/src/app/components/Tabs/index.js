@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./tabs.css";
+import "../../../../public/css/tabs.css";
 import { facultydata } from "../../data/data";
 // import icon from "@/images/teacher-carousel-icon.png";
 import Image from "next/image";
@@ -77,7 +77,7 @@ const Tabs = () => {
                     <Link
                       href={{
                         pathname: "/prof1",
-                        query: { teacher: `${prof.name}` },
+                        query: { teacher: `${prof.url}` },
                       }}
                     >
                       Know More

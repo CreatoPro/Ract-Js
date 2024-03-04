@@ -16,7 +16,7 @@ import ProfilePage4 from "./components/BootstrapTab/ProfileDetailsPage4";
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/" element={<BootstrapTab />} />{" "}
           <Route path="/prof1/:id" element={<ProfilePage1 />} />{" "}
@@ -24,7 +24,8 @@ function App() {
           <Route path="/prof3/:id" element={<ProfilePage3 />} />{" "}
           <Route path="/prof4(Allied)/:id" element={<ProfilePage4 />} />{" "}
         </Routes>
-      </Router>
+      </Router> */}
+      <ResponsiveCarousel />
     </div>
   );
 }

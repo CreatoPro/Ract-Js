@@ -1,0 +1,196 @@
+.vertical-tabs .tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.vertical-tabs .tabs-nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  justify-content: left;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .vertical-tabs .tabs-nav {
+    height: 100vh;
+    border-right: 1px solid #d9eafa;
+    flex-direction: column;
+    justify-content: start;
+    width: 308px;
+    overflow: auto;
+  }
+}
+
+.vertical-tabs .tabs-nav li {
+  margin-right: 0px;
+  padding: 22px;
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.vertical-tabs .tabs-nav li.active {
+  background-color: #d9eafa;
+}
+
+.vertical-tabs .tabs-nav li button {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.vertical-tabs .tabs-nav li.active button {
+  font-weight: 600;
+}
+
+.vertical-tabs .tabs-nav li.active svg {
+  fill: #4385f5 !important;
+}
+
+.vertical-tabs .tabs-nav li svg {
+  fill: #4f4f55 !important;
+}
+
+.vertical-tabs .tabs-nav button.active {
+  background-color: #eee;
+}
+
+.vertical-tabs .tabs-content {
+  flex: 1;
+  display: flex;
+}
+
+.vertical-tabs .tabs-content > div {
+  flex: 1;
+  padding: 10px;
+}
+
+.vertical-tabs .tabs-content > div.hidden {
+  display: none;
+}
+
+.vertical-tabs .form-control:focus {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
+
+/* Personal Details Form */
+
+.vertical-tabs h2 {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+  border-bottom: #d9eafa 1px solid;
+}
+.vertical-tabs h2 a {
+  color: #4385f5 !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.vertical-tabs .personal-details .form-label {
+  color: var(--bg-dark-gry, var(--bg-dark-grey, #4f4f55));
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.vertical-tabs .personal-details .form-label a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* Order Details Form */
+
+/* .vertical-tabs .settings; */
+
+.vertical-tabs .settings .button-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-tabs .order-details .outer-box {
+  border-radius: 10px;
+  border: 1px solid var(--bg-light-blue, #d9eafa);
+  background: var(--bg-light-grey, #f7faff);
+  padding: 25px 30px;
+  display: flex;
+  width: 100%;
+}
+
+.vertical-tabs .order-details .outer-box .blue-box {
+  border-radius: 10px;
+  background: var(--secondry-clr, #003e82);
+  height: 111px;
+  width: 167px;
+}
+
+.vertical-tabs .order-details .outer-box .name-box {
+  width: 100%;
+  display: flex;
+}
+
+.vertical-tabs .order-details .outer-box .name {
+  padding-left: 30px;
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.vertical-tabs .order-details .outer-box .price {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.vertical-tabs .order-details .outer-box .button button {
+  border-radius: 10px;
+  background: var(--primary-clr, #4385f5);
+  padding: 10px 30px;
+  color: var(--bg-white, var(--white, #fff));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+}
+
+.vertical-tabs .order-details .outer-box .button {
+  text-align: end;
+}
+
+.vertical-tabs .tab-content {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.vertical-tabs .tab-content.active {
+  display: block;
+  opacity: 1;
+}
+
+.vertical-tabs .tab-content.hidden {
+  display: none;
+  opacity: 0;
+}

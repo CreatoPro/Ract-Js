@@ -1,0 +1,53 @@
+.details-form {
+  background: url("../images/details-pg.png") top center no-repeat;
+  padding: 80px 0;
+  background-size: cover;
+}
+
+.details-form .header {
+  text-align: center;
+}
+
+.details-form .header h1 {
+  color: var(--Black, #000);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.details-form .header p {
+  color: var(--bg-dark-gry, var(--bg-dark-grey, #4f4f55));
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.details-form Form ::placeholder {
+  color: #cbcbdb !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.details-form Form .form-select {
+  color: #cbcbdb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.details-form Form .form-select option {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.details-form Form .form-select:checked option {
+  color: black;
+}
