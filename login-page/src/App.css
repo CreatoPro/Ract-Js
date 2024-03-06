@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outer-box {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .outer-box {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+  }
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  color: #555555;
+  display: flex;
+}
+
+.password-input {
+  position: relative;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+.toggle-password {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  background: linear-gradient(83.87deg, #51bce1 -14.29%, #0085cb 49.62%);
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

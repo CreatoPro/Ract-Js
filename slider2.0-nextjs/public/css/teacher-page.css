@@ -1,0 +1,153 @@
+.teacher-page {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+}
+
+.teacher-page .teacher-bg {
+  background: url("../images/teacher-banner-bg.svg") no-repeat center center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher-page .teacher-bg .text-wrapper {
+  padding-top: 236px;
+  padding-bottom: 296px;
+}
+.teacher-page .teacher-bg .text-wrapper .title {
+  color: #ffa558;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.teacher-page .teacher-bg .text-wrapper .description {
+  color: var(--bg-white, var(--white, #fff));
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.teacher-page .teacher-bg .text-wrapper .designation {
+  color: var(--bg-white, var(--white, #fff));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.teacher-page .teacher-bg .teacher-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teacher-page .teacher-bg .teacher-img-container .teacher-img {
+  width: 422px;
+  height: 564px;
+  flex-shrink: 0;
+  /* margin-left: 150px; */
+}
+
+.teacher-page .features {
+  padding: 30px 50px;
+  border-radius: 15px;
+  background: var(--white, #fff);
+  box-shadow: 0px 0px 10px 8px rgba(67, 133, 245, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: -65px;
+  z-index: 2;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.teacher-page .features .outer-box {
+  display: flex;
+}
+
+.teacher-page .features .outer-box .blue-box {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--bg-light-blue, #d9eafa);
+  margin-right: 30px;
+}
+
+.teacher-page .features .outer-box .title-and-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teacher-page .features .outer-box .title-and-name .title {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.teacher-page .features .outer-box .title-and-name .name {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.teacher-page .about-teacher {
+  padding: 80px 0px 100px;
+}
+
+.teacher-page .about-teacher .row {
+  margin-top: -91px;
+  flex-direction: column;
+}
+
+@media (min-width: 1400px) {
+  .teacher-page .about-teacher .row {
+    flex-direction: row;
+  }
+}
+
+.teacher-page .about-teacher .hat-img {
+  position: relative;
+  top: 55px;
+  left: -160px;
+}
+
+.teacher-page .about-teacher .teacher-img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.teacher-page .about-teacher .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teacher-page .about-teacher .header {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.teacher-page .about-teacher .description p {
+  color: var(--bg-dark-gry, var(--bg-dark-grey, #4f4f55));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}

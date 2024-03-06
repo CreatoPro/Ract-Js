@@ -2,19 +2,21 @@
 import { Form, Button } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../../public/css/account-details.css";
+import "../../../public/css/second-page.css";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
 import Image from "next/image";
+import Tabs from "../components/tabs";
 
 const tabs = [
-  { id: 1, title: "Tab 1", content: "Content of Tab 1" },
-  { id: 2, title: "Tab 2", content: "Content of Tab 2" },
-  { id: 3, title: "Tab 3", content: "Content of Tab 3" },
-  { id: 4, title: "Tab 4", content: "Content of Tab 4" },
-  { id: 5, title: "Tab 5", content: "Content of Tab 5" },
-  { id: 6, title: "Tab 6", content: "Content of Tab 6" },
+  { id: 1, title: "Tab 1" },
+  { id: 2, title: "Tab 2" },
+  { id: 3, title: "Tab 3" },
+  { id: 4, title: "Tab 4" },
+  { id: 5, title: "Tab 5" },
+
+  { id: 6, title: "Tab 6" },
 ];
 
 const VerticalTabs = () => {
@@ -31,7 +33,7 @@ const VerticalTabs = () => {
   };
 
   return (
-    <div className="tabs container-xxl vertical-tabs mt-5">
+    <div className="tabs container-xxl second-page mt-5">
       <div className="row">
         <ul className="tabs-nav col-md-3">
           <li

@@ -1,0 +1,202 @@
+.second-page .tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.second-page .tabs-nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  justify-content: left;
+  overflow: scroll;
+}
+
+@media (min-width: 768px) {
+  .second-page .tabs-nav {
+    height: 100vh;
+    border-right: 1px solid #d9eafa;
+    flex-direction: column;
+    justify-content: start;
+    width: 308px;
+    overflow: auto;
+  }
+}
+
+.second-page .tabs-nav li {
+  margin-right: 0px;
+  padding: 22px;
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.second-page .tabs-nav li.active {
+  color: #4385f5;
+}
+
+.second-page .tabs-nav li button {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.second-page .tabs-nav li.active button {
+  font-weight: 600;
+  color: #4385f5;
+}
+.second-page .tabs-nav li.active button::before {
+  content: url("../images/arro.png");
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.second-page .tabs-nav li.active svg {
+  fill: #4385f5 !important;
+}
+
+.second-page .tabs-nav li svg {
+  fill: #4f4f55 !important;
+}
+
+.second-page .tabs-nav button.active {
+  background-color: #eee;
+}
+
+.second-page .tabs-content {
+  flex: 1;
+  display: flex;
+}
+
+.second-page .tabs-content > div {
+  flex: 1;
+  padding: 10px;
+}
+
+.second-page .tabs-content > div.hidden {
+  display: none;
+}
+
+.second-page .form-control:focus {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
+
+/* Personal Details Form */
+
+.second-page h2 {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+  border-bottom: #d9eafa 1px solid;
+}
+.second-page h2 a {
+  color: #4385f5 !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second-page .personal-details .form-label {
+  color: var(--bg-dark-gry, var(--bg-dark-grey, #4f4f55));
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second-page .personal-details .form-label a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* Order Details Form */
+
+/* .second-page .settings; */
+
+.second-page .settings .button-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-page .order-details .outer-box {
+  border-radius: 10px;
+  border: 1px solid var(--bg-light-blue, #d9eafa);
+  background: var(--bg-light-grey, #f7faff);
+  padding: 25px 30px;
+  display: flex;
+  width: 100%;
+}
+
+.second-page .order-details .outer-box .blue-box {
+  border-radius: 10px;
+  background: var(--secondry-clr, #003e82);
+  height: 111px;
+  width: 167px;
+}
+
+.second-page .order-details .outer-box .name-box {
+  width: 100%;
+  display: flex;
+}
+
+.second-page .order-details .outer-box .name {
+  padding-left: 30px;
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.second-page .order-details .outer-box .price {
+  color: var(--bg-black, var(--Black, #000));
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.second-page .order-details .outer-box .button button {
+  border-radius: 10px;
+  background: var(--primary-clr, #4385f5);
+  padding: 10px 30px;
+  color: var(--bg-white, var(--white, #fff));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+}
+
+.second-page .order-details .outer-box .button {
+  text-align: end;
+}
+
+.second-page .tab-content {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.second-page .tab-content.active {
+  display: block;
+  opacity: 1;
+}
+
+.second-page .tab-content.hidden {
+  display: none;
+  opacity: 0;
+}

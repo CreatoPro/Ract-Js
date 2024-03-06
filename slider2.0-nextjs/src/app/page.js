@@ -6,6 +6,8 @@ import FilterSilder from "./components/filter-slider";
 import ModalButton from "./components/otp-modal";
 import OtpModal from "./components/otp-modal";
 import AccoutDetails from "./components/account-details";
+import SideNav from "./components/side-navbar";
+import TeacherPage from "./teacher-page/page";
 // import HomePage from "@/app/pages/page";
 // import Home from "./pages/index";
 
@@ -18,7 +20,8 @@ export default function Home() {
       {/* <FilterCarouselTab /> */}
       {/* <ModalButton /> */}
       {/* <DetailsForm /> */}
-      <AccoutDetails />
+      {/* <AccoutDetails /> */}
+      <TeacherPage />
     </div>
   );
 }
